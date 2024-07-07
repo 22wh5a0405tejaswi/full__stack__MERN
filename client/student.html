@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Student Page</h1>
+        <form action="/submit" method="POST">
+            <input type="text" name="name" placeholder="Your name (optional)">
+            <textarea name="message" placeholder="Your message" required></textarea>
+            <input type="hidden" name="role" value="student">
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
